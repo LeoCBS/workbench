@@ -1,14 +1,12 @@
-all: install-plugins
-
 update-vimrc:
 	cp vimrc $(HOME)/.vimrc
 
-install: 
+install-vim: 
 	echo "Copying vimrc"
 	cp my.vim/vimrc $(HOME)/.vimrc
 	rm -rf $(HOME)/.vim
 
-install-plugins: install
+install-vim-plugins: install-vim
 	echo "Installing Vundle"
 	rm -rf $(HOME)/.vim/bundle 
 	git clone https://github.com/gmarik/Vundle.vim.git $(HOME)/.vim/bundle/Vundle.vim
