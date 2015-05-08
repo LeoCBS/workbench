@@ -2,8 +2,8 @@
 scripts for workbench configuration
 
 * make install-zsh
-    install zsh and zsh config
+    - install zsh and zsh config
 
 * make install all
-    install vim configuration
+    - install vim configuration
 
