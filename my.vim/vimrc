@@ -6,12 +6,30 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 
-" let Vundle manage Vundle, required
+" CUSTOM CONFIGS
+
+" enable syntax highlighting
+syntax enable
+
+" show line numbers
+set number
+
+
+" enable all Python syntax highlighting features
+let python_highlight_all = 1
+
+
+" PLUGINS
+
+" Vundle manage
 Plugin 'gmarik/Vundle.vim'
 
 " plugins
 Plugin 'scrooloose/syntastic'
-
+Plugin 'bling/vim-airline'
 
 call vundle#end()            " required
+
+
 filetype plugin indent on    " required
+set laststatus=2
