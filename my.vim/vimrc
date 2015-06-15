@@ -12,11 +12,6 @@ Plugin 'gmarik/Vundle.vim'
 " plugins
 Plugin 'scrooloose/syntastic'
 
-" markdown
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
-
-
 
 call vundle#end()            " required
 filetype plugin indent on    " required
