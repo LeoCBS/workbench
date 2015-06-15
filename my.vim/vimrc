@@ -11,9 +11,6 @@ call vundle#begin()
 " enable syntax highlighting
 syntax enable
 
-" show line numbers
-set number
-
 
 " enable all Python syntax highlighting features
 let python_highlight_all = 1
