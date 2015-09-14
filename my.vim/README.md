@@ -20,3 +20,4 @@ Mode visual selection
 * copy: y
 * paste after cursor: p
 * undo: v
+* redo: Ctrl + R
