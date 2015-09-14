@@ -16,7 +16,7 @@ syntax enable
 let python_highlight_all = 1
 
 
-" PLUGINS
+" PLUGNS
 
 " Vundle manage
 Plugin 'gmarik/Vundle.vim'
@@ -30,3 +30,6 @@ call vundle#end()            " required
 
 filetype plugin indent on    " required
 set laststatus=2
+" enable airline tab
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='papercolor'
