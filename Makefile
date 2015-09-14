@@ -1,5 +1,5 @@
 update-vimrc:
-	cp vimrc $(HOME)/.vimrc
+	cp my.vim/vimrc $(HOME)/.vimrc
 
 install-vim: 
 	echo "Copying vimrc"
