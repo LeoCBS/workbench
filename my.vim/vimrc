@@ -33,3 +33,9 @@ set laststatus=2
 " enable airline tab
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='papercolor'
+
+" buffer navigation
+
+nnoremap <Leader><LEFT> :bprevious<CR>
+nnoremap <Leader><RIGHT> :bnext<CR>
+

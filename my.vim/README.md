@@ -21,3 +21,10 @@ Mode visual selection
 * paste after cursor: p
 * undo: v
 * redo: Ctrl + R
+
+## Custom shortcuts
+
+### Buffer navigation
+
+* Next buffer: `\ + RIGHT`
+* Previous buffer: `\ + LEFT`
