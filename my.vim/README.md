@@ -11,7 +11,16 @@ Repo to organize vim configuration
 
 * [papercolor](https://github.com/bling/vim-airline/wiki/Screenshots#papercolor)
 
-## Shortcuts
+## Custom shortcuts
+
+### Buffer navigation
+
+* Next buffer: `\ + RIGHT`
+* Previous buffer: `\ + LEFT`
+
+## Tips
+
+### Vim Shortcuts
 
 Mode visual selection
 
@@ -22,9 +31,6 @@ Mode visual selection
 * undo: v
 * redo: Ctrl + R
 
-## Custom shortcuts
+### General tips
 
-### Buffer navigation
-
-* Next buffer: `\ + RIGHT`
-* Previous buffer: `\ + LEFT`
+* close buffer: :bd
