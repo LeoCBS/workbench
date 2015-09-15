@@ -28,7 +28,7 @@ Mode visual selection
 * Select range: v
 * copy: y
 * paste after cursor: p
-* undo: v
+* undo: u
 * redo: Ctrl + R
 
 ### General tips
