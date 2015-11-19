@@ -1,7 +1,8 @@
 #!/bin/sh
 
 echo "Installing zsh"
-sudo apt-get install - y zsh
+sudo apt-get update
+sudo apt-get install -y zsh
 
 cd ./my.zsh
 make
