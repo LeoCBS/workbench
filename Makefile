@@ -2,6 +2,7 @@ update-vimrc:
 	cp my.vim/vimrc $(HOME)/.vimrc
 
 install-vim: 
+	sudo apt-get install -y vim
 	echo "Copying vimrc"
 	cp my.vim/vimrc $(HOME)/.vimrc
 	rm -rf $(HOME)/.vim
