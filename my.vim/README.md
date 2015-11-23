@@ -33,4 +33,5 @@ Mode visual selection
 
 ### General tips
 
+* open new buffer: edit <filepath>
 * close buffer: :bd
