@@ -1,7 +1,7 @@
 # workbench
 scripts for workbench configuration
 
-Vim [readme](my.vim)
+Vim config [info](my.vim)
 
 
 * make install-zsh
