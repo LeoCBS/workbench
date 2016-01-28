@@ -1,6 +1,13 @@
 # workbench
 scripts for workbench configuration
 
+## Stuffs installed:
+
+* Vim
+* [sh](my.zsh/zshrc)
+* tmux 
+
+
 Vim config [info](my.vim)
 
 

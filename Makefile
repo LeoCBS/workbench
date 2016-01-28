@@ -17,3 +17,10 @@ install-vim-plugins: install-vim
 install-zsh:
 	chmod 777 environment.sh
 	./environment.sh
+
+install-tmux:
+	set +e
+	sudo add-apt-repository ppa:pi-rho/dev
+	sudo apt-get  update
+	sudo apt-get install tmux
+	set -e
