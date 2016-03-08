@@ -35,3 +35,8 @@ Mode visual selection
 
 * open new buffer: edit `<filepath>`
 * close buffer: :bd
+* 
+
+### Visual mode line (shift v)
+
+### Visual mode column (ctrol v)
