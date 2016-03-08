@@ -35,8 +35,6 @@ Mode visual selection
 
 * open new buffer: edit `<filepath>`
 * close buffer: :bd
-* 
-
-### Visual mode line (shift v)
-
-### Visual mode column (ctrol v)
+* Replace command: %s,string_nova, string antigo, g
+* Enter in visual line mode : shift + v
+* Enter in visual column mode : ctrol + v
