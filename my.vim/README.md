@@ -38,4 +38,4 @@ Mode visual selection
 * Replace command: %s,string_nova, string antigo, g
 * Enter in visual line mode : shift + v
 * Enter in visual column mode : ctrol + v
-* Jump to a line number: :line number
+* Jump to a line number: esc key + :line number
