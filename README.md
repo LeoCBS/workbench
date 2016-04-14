@@ -19,6 +19,7 @@ Vim config [info](my.vim)
 
 ## general tips
 
-[CLI tools tips](README_TOOLS.md)
-[REGEX tips](README_REGEX.md)
+* [CLI tools tips](README_TOOLS.md)
+
+* [REGEX tips](README_REGEX.md)
 
