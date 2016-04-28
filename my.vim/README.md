@@ -6,6 +6,7 @@ Repo to organize vim configuration
 * Vundle plugin manager
 * scrooloose/syntastic
 * bling/vim-airline
+* fatih/vim-go
 
 ## Airline theme
 
