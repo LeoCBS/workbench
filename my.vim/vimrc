@@ -28,6 +28,9 @@ Plugin 'scrooloose/syntastic'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
+"plugin fot golang
+Plugin 'fatih/vim-go'
+
 call vundle#end()            " required
 
 
