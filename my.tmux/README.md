@@ -15,3 +15,6 @@
 * % (create a horizontal pane)
 * } (swap with next pane)
 * { (swap with previous pane)
+* 
+
+[reference](https://danielmiessler.com/study/tmux/)
