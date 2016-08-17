@@ -3,6 +3,10 @@
 ## new session
 
     tmux new -s session-name
+    
+## attaching to an existing session
+
+    tmux a -t session-name
 
 ## killing session
 
