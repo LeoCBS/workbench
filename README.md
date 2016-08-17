@@ -15,9 +15,10 @@ scripts for workbench configuration
     install-zsh
 ```
 * tmux 
-```
-    install-tmux
-```
+
+    ```
+    make install-tmux
+    ```
 
 Vim config [info](my.vim)
 
