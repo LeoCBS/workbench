@@ -11,6 +11,7 @@
 ## Ctrl-b options:
 
 * s (list session)
+* d (detach from the current session)
 * % (create a horizontal pane)
 * } (swap with next pane)
 * { (swap with previous pane)
