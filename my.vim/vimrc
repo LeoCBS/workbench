@@ -1,6 +1,11 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+" show line numbers
+set number
+" show the matching part of the pair for [] {} and ()
+set showmatch
+
 set nobackup
 set nowritebackup
 
@@ -43,13 +48,6 @@ set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='papercolor'
 
-" vim-go configuration
-let g:go_highlight_functions = 1
-let g:go_highlight_methods = 1
-let g:go_highlight_fields = 1
-let g:go_highlight_types = 1
-let g:go_highlight_operators = 1
-let g:go_highlight_build_constraints = 1
 
 " buffer navigation
 
