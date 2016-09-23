@@ -3,6 +3,6 @@ set -o errexit
 set -o nounset
 
 echo "Installing my vim"
-cd ../../my.vim
-
-make
+sudo pacman --noconfirm -S vim
+cd ./..
+make install-vim-plugins
