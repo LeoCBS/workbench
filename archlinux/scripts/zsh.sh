@@ -3,7 +3,7 @@ set -e
 
 echo "Installing zsh and my zshrc"
 sudo pacman -S --noconfirm zsh
-cd ../../
+cd ./../
 make install-zsh
 
 echo "configuring zsh as default shell"

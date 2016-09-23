@@ -23,3 +23,5 @@ alias dockercleani='printf "\n>>> Deleting untagged images\n\n" && docker rmi -f
 alias dockercleanv='printf "\n>>> Deleting orphaned volumes.\n\n" && docker volume rm $(docker volume ls -qf dangling=true)'
 ## Delete all stopped containers and untagged images.
 alias dockerclean='dockercleanc || true && dockercleani || true && dockercleani'
+
+alias vi="vim"
