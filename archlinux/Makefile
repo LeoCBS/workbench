@@ -6,3 +6,7 @@ docker: chmod
 	./scripts/docker.sh
 zsh: chmod
 	./scripts/zsh.sh
+
+install-vim: chmod
+	./scripts/vim.sh
+
