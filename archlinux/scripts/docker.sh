@@ -8,7 +8,6 @@ sudo pacman --noconfirm -S docker
 echo "Adding user to docker group"
 sudo groupadd -f docker
 sudo gpasswd -a $USER docker
-sudo newgrp docker
 
 echo "Configuring to use OverlayFS"
 mkdir -p /etc/systemd/system/docker.service.d
@@ -19,3 +18,4 @@ sudo systemctl enable docker
 
 echo "Installing docker compose"
 sudo pacman --noconfirm -S docker-compose
+#sudo newgrp docker
