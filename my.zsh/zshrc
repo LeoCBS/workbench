@@ -1,6 +1,8 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.zsh
 
+autoload -Uz compinit && compinit
+
 #load libs
 source $ZSH/libs/git.zsh
 
