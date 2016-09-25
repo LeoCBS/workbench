@@ -5,9 +5,19 @@ filetype off                  " required
 set number
 " show the matching part of the pair for [] {} and ()
 set showmatch
-
+set autoindent
+set copyindent
+set smarttab
+set autoread
 set nobackup
 set nowritebackup
+
+" indent settings
+set shiftwidth=4
+set softtabstop=4
+set textwidth=79
+set fileformat=unix
+set expandtab
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -38,6 +48,9 @@ Plugin 'vim-airline/vim-airline-themes'
 
 "plugin fot golang
 Plugin 'fatih/vim-go'
+
+" python plugins
+"Plugin 'hynek/vim-python-pep8-indent'
 
 call vundle#end()            " required
 
