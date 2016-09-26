@@ -2,9 +2,20 @@
 
 This folder have objetive to install arch linux tools.
 
-Zsh and vim configuration have target in root Malefile.
+Zsh and vim configuration have target in root Makefile.
 
 One time you have installed zsh, vim and others tools using this script, update only tool configuration using:
 
     cd ../.
     make update-vimrc
+    
+    
+targets:
+
+    make keyboard
+	
+    make docker
+
+    make zsh
+
+    make install-vim
