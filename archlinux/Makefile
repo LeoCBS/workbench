@@ -1,7 +1,8 @@
 chmod:
 	chmod 777 ./scripts -R
 keyboard:
-	sudo cp ./cfg/x/10-evdev.conf /etc/X11/xorg.conf.d/10-evdev.conf
+	sudo cp ./cfg/x/10-evdev.conf /etc/X11/xorg.conf.d
+	sudo cp ./cfg/x/00-keyboard.conf /etc/X11/xorg.conf.d
 docker: chmod
 	./scripts/docker.sh
 zsh: chmod
