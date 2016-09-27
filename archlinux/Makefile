@@ -11,3 +11,6 @@ zsh: chmod
 install-vim: chmod
 	./scripts/vim.sh
 
+essentials: chmod
+	./scripts/essentials.sh
+
