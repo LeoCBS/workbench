@@ -24,4 +24,7 @@ alias dockercleanv='printf "\n>>> Deleting orphaned volumes.\n\n" && docker volu
 ## Delete all stopped containers and untagged images.
 alias dockerclean='dockercleanc || true && dockercleani || true && dockercleani'
 
+## remove orphans package
+alias cleanorphans='sudo pacman -Rscn $(pacman -Qtdq)'
+
 alias vi="vim"
