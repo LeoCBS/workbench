@@ -27,4 +27,8 @@ alias dockerclean='dockercleanc || true && dockercleani || true && dockercleani'
 ## remove orphans package
 alias cleanorphans='sudo pacman -Rscn $(pacman -Qtdq)'
 
+alias systemctl_failed='systemctl --failed'
+alias logfiles='journalctl -p 3 -xb'
+alias updatearch='sudo pacman -Syu'
+
 alias vi="vim"
