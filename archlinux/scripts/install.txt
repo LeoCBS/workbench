@@ -1,0 +1,86 @@
+systemctl start dhcpcd
+
+fdisk -l
+gdisk /dev/sda  # using your hdd id
+
+#creating boot - type n
+#Partition number (default): Enter.
+#First sector: Enter.
+#Last sector (): +500M
+#Hex code: ef02
+
+#creating swap - type n
+#Partition number : Enter.
+#First sector : Enter.
+#Last sector: +2G
+#Hex code : 8200
+
+#creating root - type n
+#Partition number : Enter.
+#First sector :: Enterr.
+#Last sector: +15G
+#Hex code : 8300
+
+#type y to salve
+
+fdisk -l # see how partition
+
+#formating partitions
+mkfs -t ext4 /dev/sda3
+mkswap /dev/sda2
+swapon /dev/sda2
+
+#mouting root
+mount /dev/sda3 /mnt
+
+#creating home
+mkdir /mnt/home
+
+#install base
+pacstrap /mnt base base-devel
+genfstab /mnt >> /mnt/etc/fstab
+
+#configure system
+arch-chroot /mnt
+loadkeys br-abnt2
+
+nano /etc/locale.gen
+#ctrl+w to find, ctrl+x to save
+# uncomment #en_US.UTF-8
+
+locale-gen
+echo LANG=en_US.UTF-8 > /etc/locale.conf
+
+#creating user
+passwd
+useradd -m -g users -G wheel -s /bin/bash leonardo
+passwd leonardo
+mkdir /home/leonardo
+chown leonardo /home/leonardo
+chgrp leonardo /home/leonardo
+
+#add user to sudoers
+nano /etc/sudoers
+
+#install grub
+pacman -S grub
+grub-install /dev/sda (change to your drive)
+
+#init system
+mkinitcpio -p linux
+grub-mkconfig -o /boot/grub/grub.cfg
+
+exit
+
+umount -a
+reboot
+
+#after installation
+pacman -S alsa-utils #sound
+pacman -S xorg-server xorg-xinit xorg-server-utils xorg-twm xorg-xclock xterm #xorg
+
+#vga
+lspci | grep VGA #discovery card
+
+#intel
+pacman -S xf86-video-intel
