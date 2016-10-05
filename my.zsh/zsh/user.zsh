@@ -36,4 +36,5 @@ export LESS="-R"
 export LC_CTYPE=$LANG
 export EDITOR=vi
 
-alias serve="python -m SimpleHTTPServer"
+setxkbmap -model abnt2 -layout br -variant abnt2
+

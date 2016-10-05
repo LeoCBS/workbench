@@ -30,5 +30,5 @@ alias cleanorphans='sudo pacman -Rscn $(pacman -Qtdq)'
 alias systemctl_failed='systemctl --failed'
 alias logfiles='journalctl -p 3 -xb'
 alias updatearch='sudo pacman -Syu'
-
+alias gitemail='git config user.email "leocborgess@gmail.com"'
 alias vi="vim"
