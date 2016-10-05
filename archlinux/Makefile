@@ -14,3 +14,8 @@ install-vim: chmod
 essentials: chmod
 	./scripts/essentials.sh
 
+nvidia: chmod
+	./scripts/nvidia.sh
+
+install-all: docker install-vim essentials
+
