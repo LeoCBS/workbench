@@ -1,6 +1,7 @@
 #!/bin/sh
 
 sudo pacman --noconfirm -S git openssh curl dmenu xclip unrar slock numlockx wget nautilus xautolock openssh pavucontrol
+sudo pacman --noconfirm -S firefox
 
 git config --global push.default simple
 git config --global user.name "Leonardo Cesar Borges"
