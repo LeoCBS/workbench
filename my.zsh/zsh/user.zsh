@@ -41,5 +41,5 @@ setxkbmap -model abnt2 -layout br -variant abnt2
 
 #golang variable
 export GOPATH=$HOME/projects/go
-export GOROOT=$HOME/usr/lib/go
+export GOROOT=/usr/lib/go
 export PATH=$PATH:$GOPATH/bin:$GOROOT/bin
