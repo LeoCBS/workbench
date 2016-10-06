@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo pacman --noconfirm -S git openssh curl dmenu xclip unrar slock numlockx wget yaourt
+sudo pacman --noconfirm -S git openssh curl dmenu xclip unrar slock numlockx wget nautilus xautolock openssh
 
 git config --global push.default simple
 git config --global user.name "Leonardo Cesar Borges"
