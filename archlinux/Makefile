@@ -17,5 +17,8 @@ essentials: chmod
 nvidia: chmod
 	./scripts/nvidia.sh
 
+golang: chmod
+	./scripts/golang.sh
+
 install-all: docker install-vim essentials
 
