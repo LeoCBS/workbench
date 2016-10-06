@@ -37,4 +37,3 @@ export LC_CTYPE=$LANG
 export EDITOR=vi
 
 setxkbmap -model abnt2 -layout br -variant abnt2
-
