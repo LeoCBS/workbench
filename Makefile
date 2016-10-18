@@ -1,7 +1,14 @@
-update-vimrc:
+VIM_HOME=$(HOME)/.vim
+
+copy-vim-ftplugin:
+	echo "Install ftplugin"
+	cp -pr ./my.vim/ftplugin  $(VIM_HOME)
+
+
+update-vimrc: copy-vim-ftplugin
 	cp my.vim/vimrc $(HOME)/.vimrc
 
-install-vim: 
+install-vim: copy-vim-ftplugin 
 	echo "Copying vimrc"
 	cp my.vim/vimrc $(HOME)/.vimrc
 	rm -rf $(HOME)/.vim
