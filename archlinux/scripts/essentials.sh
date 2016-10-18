@@ -6,6 +6,7 @@ sudo pacman --noconfirm -S firefox tig meld
 git config --global push.default simple
 git config --global user.name "Leonardo Cesar Borges"
 #it config --global user.email "leocborgess@gmail.com"
+git config --global core.editor "vim"
 
 echo "Configure time properly"
 sudo ln -fs /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
