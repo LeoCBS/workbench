@@ -5,7 +5,7 @@ filetype off                  " required
 set number
 " show the matching part of the pair for [] {} and ()
 set showmatch
-set autoindent
+" set autoindent
 set copyindent
 set smarttab
 set autoread
