@@ -16,13 +16,13 @@ fi
 ## Kill all running containers.
 alias dockerkillall='docker kill $(docker ps -q)'
 ## Delete all stopped containers.
-alias dockercleanc='printf "\n>>> Deleting stopped containers\n\n" && docker rm $(docker ps -a -q)'
-## Delete all images.
-alias dockercleani='printf "\n>>> Deleting untagged images\n\n" && docker rmi -f $(docker images -q)'
+alias dockerclean-stopped-containers='printf "\n>>> Deleting stopped containers\n\n" && docker rm $(docker ps -a -q)'
+## Delete untagged images.
+alias dockerclean-untagged-images='printf "\n>>> Deleting untagged images\n\n" && docker rmi -f $(docker images -q)'
 ## Delete orphaned volumes.
-alias dockercleanv='printf "\n>>> Deleting orphaned volumes.\n\n" && docker volume rm $(docker volume ls -qf dangling=true)'
+alias dockerclean-orphaned-volumes='printf "\n>>> Deleting orphaned volumes.\n\n" && docker volume rm $(docker volume ls -qf dangling=true)'
 ## Delete all stopped containers and untagged images.
-alias dockerclean='dockercleanc || true && dockercleani || true && dockercleani'
+alias dockerclean='dockerclean-stopped-containers || true && dockerclean-untagged-images || true && dockerclean-orphaned-volumes'
 
 ## remove orphans package
 alias cleanorphans='sudo pacman -Rscn $(pacman -Qtdq)'
