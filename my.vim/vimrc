@@ -10,6 +10,7 @@ set copyindent
 set smarttab
 set autoread
 set nobackup
+set noswapfile
 set nowritebackup
 
 " indent settings
