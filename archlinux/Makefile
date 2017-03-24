@@ -20,5 +20,6 @@ nvidia: chmod
 golang: chmod
 	./scripts/golang.sh
 
-install-all: docker install-vim essentials
+fzf: chmod
+	./scripts/fzf.sh
 
