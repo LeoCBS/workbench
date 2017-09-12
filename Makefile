@@ -24,6 +24,10 @@ install-zsh:
 	chmod 777 environment.sh
 	./environment.sh
 
+update-zsh-alias:
+	cp my.zsh/zsh/aliases.zsh ~/.zsh/aliases.zsh
+	source ~/.zsh/aliases.zsh
+
 install-tmux:
 	set +e
 	sudo add-apt-repository ppa:pi-rho/dev
