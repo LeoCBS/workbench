@@ -30,3 +30,6 @@ install-tmux:
 	sudo apt-get  update
 	sudo apt-get install tmux
 	set -e
+
+update-i3:
+	cp dotfiles/.i3 ~/.i3/config
