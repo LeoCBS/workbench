@@ -38,3 +38,4 @@ USER='leonardo.borges'
 # tunnes
 alias tunnelpg='ssh -v -nNT -L 51013:10.120.5.101:5433  -L 51053:10.120.5.105:5433 -L 51063:10.120.5.106:5433 -L 51033:10.120.5.103:5433 -L 51023:10.120.5.102:5433 -L 51043:10.120.5.104:5433  $USER@10.120.1.150 -i $SSH_KEY'
 alias tunnelrabbit_dev='ssh -v -nNT -L 30000:10.116.2.5:30000 $USER@10.116.1.150 -i $SSH_KEY'
+alias tunnelrabbit_dev='ssh -v -nNT -L 30000:10.120.7.100:15672 $USER@10.120.1.150 -i $SSH_KEY'
