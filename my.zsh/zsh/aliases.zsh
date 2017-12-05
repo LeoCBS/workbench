@@ -40,4 +40,4 @@ alias tunnelpg='ssh -v -nNT -L 51013:10.120.5.101:5433  -L 51053:10.120.5.105:54
 alias tunnelrabbit_dev='ssh -v -nNT -L 30000:10.116.2.5:30000 $USER@10.116.1.150 -i $SSH_KEY'
 alias tunnelrabbit_dev='ssh -v -nNT -L 30000:10.120.7.100:15672 $USER@10.120.1.150 -i $SSH_KEY'
 alias tunnel_api='ssh -v -nNT -L 3201:data.neoway.com.br:32001 $USER@10.120.1.150 -i $SSH_KEY'
-
+alias tunnel_ssh='ssh -v -nNT -L 8080:10.120.6.5:22 $USER@10.120.1.150 -i $SSH_KEY'
