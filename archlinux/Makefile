@@ -3,6 +3,7 @@ chmod:
 keyboard:
 	sudo cp ./cfg/x/10-evdev.conf /etc/X11/xorg.conf.d
 	sudo cp ./cfg/x/00-keyboard.conf /etc/X11/xorg.conf.d
+	sudo cp ./cfg/etc/vconsole.conf /etc/vconsole.conf
 docker: chmod
 	./scripts/docker.sh
 zsh: chmod
