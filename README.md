@@ -4,21 +4,23 @@ scripts for workbench configuration
 ## Stuffs installed:
 
 * Vim
-    ```
+```
     make install-vim
     make update-vimrc
     make install-vim-plugins
-    ```
+```
 
 * [sh](my.zsh/zshrc)
- ```
-    install-zsh
+ 
 ```
+    make install-zsh
+```
+
 * tmux 
 
-    ```
+```
     make install-tmux
-    ```
+```
 
 Vim config [info](my.vim)
 
