@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo pacman --noconfirm -S git openssh curl dmenu xclip unrar slock numlockx wget nautilus xautolock openssh pavucontrol
+sudo pacman --noconfirm -S git openssh curl dmenu xclip unrar slock numlockx wget nautilus xautolock openssh pavucontrol ttf-dejavu
 sudo pacman --noconfirm -S firefox tig meld ipython ngrep msc-generator
 
 git config --global push.default simple
