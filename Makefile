@@ -35,5 +35,12 @@ install-tmux:
 	sudo apt-get install tmux
 	set -e
 
+install-tmux-config:
+	cp my.tmux/tmux.conf ~/.tmux.conf
+	rm -rf $(HOME)/.tmux/plugins/tpm
+	git clone https://github.com/tmux-plugins/tpm $(HOME)/.tmux/plugins/tpm
+	tmux source ~/.tmux.conf
+
+
 update-i3:
 	cp dotfiles/.i3 ~/.i3/config
