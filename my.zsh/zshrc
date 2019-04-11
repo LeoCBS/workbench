@@ -25,6 +25,6 @@ source $ZSH/completion.zsh
 # Load User Prefs
 source $ZSH/user.zsh
 
-bindkey "${terminfo[khome]}" beginning-of-line
-bindkey "${terminfo[kend]}" end-of-line
+bindkey "\e[H" beginning-of-line
+bindkey "\e[F" end-of-line
 bindkey "\e[3~" delete-char
