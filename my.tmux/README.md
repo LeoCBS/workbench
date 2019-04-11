@@ -12,8 +12,10 @@
 
     tmux kill-session -t session-name
 
-## Ctrl-b options:
+## Ctrl-a options:
 
+* % (vertical split)
+* " (horizontal split)
 * s (list session)
 * d (detach from the current session)
 * % (create a horizontal pane)
