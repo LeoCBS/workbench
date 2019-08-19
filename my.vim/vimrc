@@ -35,18 +35,16 @@ syntax enable
 let python_highlight_all = 1
 
 
-" PLUGNS
+" PLUGINS
 
 " Vundle manage
 Plugin 'gmarik/Vundle.vim'
 
-" plugins
 Plugin 'scrooloose/syntastic'
-
-"plugin fot golang
+Plugin 'scrooloose/nerdtree'
 Plugin 'fatih/vim-go'
 
-" python plugins
+" python
 Plugin 'nvie/vim-flake8'
 
 " themes
