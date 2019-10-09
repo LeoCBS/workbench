@@ -22,5 +22,8 @@
 * } (swap with next pane)
 * { (swap with previous pane)
 * o (toggle between panes)
+* c (create new windows)
+* number (navigate between window)
+* , rename current window
 
 [reference](https://danielmiessler.com/study/tmux/)
