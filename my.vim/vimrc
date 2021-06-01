@@ -43,6 +43,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
 Plugin 'fatih/vim-go'
+Plugin 'mg979/vim-visual-multi', {'branch': 'master'}
 
 " python
 Plugin 'nvie/vim-flake8'
