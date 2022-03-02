@@ -40,3 +40,5 @@ Mode visual selection
 * Enter in visual line mode : shift + v
 * Enter in visual column mode : ctrol + v
 * Jump to a line number: esc key + :line number
+* Easy replace: LEADER + rc or LEADER + ra
+* Code definition LEADER + ds
