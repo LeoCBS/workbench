@@ -42,8 +42,8 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
+Plugin 'kqito/vim-easy-replace'
 Plugin 'fatih/vim-go'
-Plugin 'mg979/vim-visual-multi', {'branch': 'master'}
 
 " python
 Plugin 'nvie/vim-flake8'
@@ -66,6 +66,10 @@ let g:airline_theme='papercolor'
 
 nnoremap <Leader><LEFT> :bprevious<CR>
 nnoremap <Leader><RIGHT> :bnext<CR>
+
+" Navigation commands
+au FileType go nmap <Leader>ds <Plug>(go-def-split)
+au FileType go nmap <Leader>dv <Plug>(go-def-vertical)
 
 " netrw config
 let g:netrw_banner = 0
