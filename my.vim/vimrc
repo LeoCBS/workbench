@@ -43,7 +43,12 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kqito/vim-easy-replace'
+
+" golang
 Plugin 'fatih/vim-go'
+
+" rust
+Plugin 'rust-lang/rust.vim'
 
 " python
 Plugin 'nvie/vim-flake8'
