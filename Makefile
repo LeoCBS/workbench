@@ -47,3 +47,6 @@ update-i3:
 wezterm-config:
 	cp wezterm/wexterm.lua ~/.wexterm.lua
 
+nvim-starter:
+	rm -rf ~/.config/nvim
+	cp -r nvim ~/.config/nvim/
