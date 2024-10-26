@@ -41,6 +41,9 @@ install-tmux-config:
 	git clone https://github.com/tmux-plugins/tpm $(HOME)/.tmux/plugins/tpm
 	tmux source ~/.tmux.conf
 
-
 update-i3:
 	cp dotfiles/.i3 ~/.i3/config
+
+wezterm-config:
+	cp wezterm/wexterm.lua ~/.wexterm.lua
+
