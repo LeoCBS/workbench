@@ -11,3 +11,5 @@ vim.cmd([[
     set conceallevel=0
     set concealcursor=""
 ]])
+
+vim.opt.clipboard = “unamedplus”
