@@ -28,3 +28,5 @@ source $ZSH/user.zsh
 bindkey "\e[H" beginning-of-line
 bindkey "\e[F" end-of-line
 bindkey "\e[3~" delete-char
+
+eval "$(starship init zsh)"
