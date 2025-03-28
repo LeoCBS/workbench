@@ -53,3 +53,6 @@ wezterm-config:
 nvim-starter:
 	rm -rf ~/.config/nvim
 	cp -r nvim ~/.config/nvim/
+
+nvim-update-extra-plugins:
+	cp -r nvim/lua/plugins/extra.lua ~/.config/nvim/lua/plugins/extra.lua
