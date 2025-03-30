@@ -50,9 +50,14 @@ update-i3:
 wezterm-config:
 	cp wezterm/wexterm.lua ~/.wexterm.lua
 
-nvim-starter:
-	rm -rf ~/.config/nvim
-	cp -r nvim ~/.config/nvim/
+nvim-update-plugins:
+	cp -r nvim/lua/plugins/ ~/.config/nvim/lua/
 
-nvim-update-extra-plugins:
-	cp -r nvim/lua/plugins/extra.lua ~/.config/nvim/lua/plugins/extra.lua
+nvim-install-lazyvim:
+	cp -r nvim/ ~/.config/
+
+nvim-install-cleanup:
+	rm -rf ~/.config/nvim
+	rm -rf ~/.local/share/nvim
+	rm -rf ~/.local/state/nvim
+	rm -rf ~/.cache/nvim
