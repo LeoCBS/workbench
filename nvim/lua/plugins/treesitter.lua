@@ -25,6 +25,7 @@ return {
         "vim",
         "yaml",
         "terraform",
+        "hcl",
       },
     },
   },
