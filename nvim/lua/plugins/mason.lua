@@ -16,7 +16,7 @@ return {
         "flake8",
         "rust-analyzer",
         "codelldb",
-        "gopls"
+        "gopls",
       },
     },
   },
