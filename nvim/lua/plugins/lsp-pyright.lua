@@ -43,12 +43,12 @@ return {
     },
     setup = {
       pyright = function(_, opts)
-        local cmp_nvim_lsp = require("cmp_nvim_lsp")
+        --local cmp_nvim_lsp = require("cmp_nvim_lsp")
         opts.capabilities = vim.tbl_deep_extend(
           "force",
           {},
-          vim.lsp.protocol.make_client_capabilities(),
-          cmp_nvim_lsp.default_capabilities()
+          vim.lsp.protocol.make_client_capabilities()
+          --cmp_nvim_lsp.default_capabilities()
         )
         require("lspconfig").pyright.setup(opts)
         return true
