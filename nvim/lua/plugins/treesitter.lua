@@ -7,7 +7,8 @@
 return {
   -- add more treesitter parsers
   {
-    "nvim-treesitter/nvim-treesitter",
+    "nvim-treesitter/nvim-treesitter",branch = 'master', lazy = false, build = ":TSUpdate",
+    auto_install = true,
     opts = {
       ensure_installed = {
         "bash",
@@ -26,6 +27,7 @@ return {
         "yaml",
         "terraform",
         "hcl",
+        "rust"
       },
     },
   },
