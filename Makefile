@@ -51,6 +51,7 @@ wezterm-config:
 	cp wezterm/wexterm.lua ~/.wexterm.lua
 
 nvim-update-plugins-configs:
+	rm -rf ~/.config/nvim/lua/*
 	cp -r nvim/lua/plugins/ ~/.config/nvim/lua/
 	cp -r nvim/lua/config/ ~/.config/nvim/lua/
 

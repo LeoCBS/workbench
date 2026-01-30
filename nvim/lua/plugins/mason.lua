@@ -17,6 +17,7 @@ return {
         "rust-analyzer",
         "codelldb",
         "gopls",
+        "pyright",
       },
     },
   },
