@@ -1,12 +1,7 @@
 return {
-  -- add gruvbox
-  { "rebelot/kanagawa.nvim" },
-
-  -- Configure LazyVim to load gruvbox
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "kanagawa",
-    },
-  },
+  "nyoom-engineering/oxocarbon.nvim"
+  -- Add in any other configuration; 
+  --   event = foo, 
+  --   config = bar
+  --   end,
 }
